@@ -1,0 +1,54 @@
+.options-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:15px;
+    margin-bottom:50px;
+}
+
+.option-container{
+    border:1px solid black;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+     
+ }
+
+ @media only screen and (max-width:576px) {
+    .quiz-main{
+        width:300px;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+         
+     }
+
+     .options-container{
+        width: 100%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:15px;
+        margin-bottom:50px;
+         
+    }
+    
+    .option-container{
+        border:1px solid black;
+        width: 300px;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin:0 auto;
+    
+         
+     }
+
+     .quistion{
+        width: 80%;
+        margin:0 auto;
+     }
+
+ }
